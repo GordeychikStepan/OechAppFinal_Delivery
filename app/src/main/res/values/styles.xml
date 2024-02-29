@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="SecondaryButton" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/secondary_button</item>
+        <item name="android:textColor">@color/blue_primary</item>
+        <item name="android:elevation">0dp</item>
+
+    </style>
+
+    <style name="PrimaryButton" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/primary_button</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:elevation">0dp</item>
+    </style>
+
+    <style name="PrimaryButtonGray" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/primary_button_grey</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:elevation">0dp</item>
+    </style>
+
+    <style name="DefaultEditText" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@drawable/default_edittext</item>
+        <item name="android:textColor">@color/light_black_text_color</item>
+        <item name="android:elevation">0dp</item>
+    </style>
+
+    <style name="OtpEditText" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@drawable/otp_verification_edittext</item>
+        <item name="android:textColor">@color/gray_color</item>
+        <item name="android:elevation">0dp</item>
+    </style>
+
+    <style name="OtpEditTextFilled" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@drawable/otp_verification_edittext_filled</item>
+        <item name="android:textColor">@color/gray_color</item>
+        <item name="android:elevation">0dp</item>
+    </style>
+
+    <style name="BlueCheckBox" parent="Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="android:background">@drawable/blue_checkbox</item>
+        <item name="android:button">@null</item>
+    </style>
+
+    <style name="GrayCheckBox" parent="Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="android:background">@drawable/gray_checkbox</item>
+        <item name="android:button">@null</item>
+    </style>
+
+    <style name="RadioButtonStyle">
+        <item name="android:background">@drawable/custom_radio_button</item>
+        <item name="android:button">@null</item>
+    </style>
+
+    <style name="PrimarySwitch" parent="Widget.AppCompat.CompoundButton.Switch">
+        <item name="trackTint">@color/blue_primary</item>
+        <item name="thumbTint">@color/blue_primary</item>
+        <item name="android:textColor">@color/light_black_text_color</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="RobotoBold14sp" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="RobotoBold16sp" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+
+    <style name="RobotoRegular12spSecondaryText" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/orange_secondary</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="RobotoRegular12spGrayText" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/gray_color</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="RobotoRegular12spLightGrayText" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/light_gray_color</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="RobotoRegular12spLightBlackText" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/light_black_text_color</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="RobotoRegular14spBlackText" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="RobotoRegular14spLightBlackText" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/light_black_text_color</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="RobotoRegular14spGrayText" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/gray_color</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="RobotoRegular14spPrimaryText" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/blue_primary</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="RobotoRegular16spLightBlackText" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/light_black_text_color</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="RobotoRegular16spPrimaryText" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/blue_primary</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+
+    <style name="RobotoMedium24spLightBlackText" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/light_black_text_color</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="RobotoMedium24spWhiteText" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="RobotoMedium16spPrimaryText" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/blue_primary</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="RobotoMedium14spLightBlackText" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/light_black_text_color</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="RobotoMedium14spPrimaryText" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/blue_primary</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="RobotoMedium12spPrimaryText" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/blue_primary</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="RobotoMedium14spGrayText" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/gray_color</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="RobotoMedium12spGrayText" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/gray_color</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="RobotoBold14spSecondaryText" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/orange_secondary</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="RobotoBold24spPrimaryText" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/blue_primary</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="BottomShadowStyle">
+        <item name="android:background">@drawable/bottom_shadow_background</item>
+        <item name="android:elevation">4dp</item>
+    </style>
+
+    <style name="BottomShadowStyleDark">
+        <item name="android:background">@drawable/bottom_shadow_background_dark</item>
+        <item name="android:elevation">4dp</item>
+    </style>
+
+    <style name="OtpEditTextDark" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@drawable/otp_verification_edittext</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textColorHint">@color/gray_color</item>
+        <item name="android:elevation">0dp</item>
+    </style>
+</resources>
+

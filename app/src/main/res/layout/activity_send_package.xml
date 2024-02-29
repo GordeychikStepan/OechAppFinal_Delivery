@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.SendPackageActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/ic_origin_details" />
+
+                <TextView
+                    android:id="@+id/textView1"
+                    style="@style/RobotoMedium14spLightBlackText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="7dp"
+                    android:text="@string/origin_details" />
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/OrigDetAddress"
+                android:textColorHint="@color/gray_color"
+                android:layout_width="match_parent"
+                style="@style/RobotoRegular12spLightBlackText"
+                android:padding="8dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:hint="@string/address"
+                android:maxLength="70"
+                android:maxLines="1"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/OrigDetCountry"
+                android:textColorHint="@color/gray_color"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                style="@style/RobotoRegular12spLightBlackText"
+                android:padding="8dp"
+                android:layout_marginTop="5dp"
+                android:hint="@string/state_country"
+                android:maxLength="70"
+                android:maxLines="1"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/OrigDetPhone"
+                android:textColorHint="@color/gray_color"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                style="@style/RobotoRegular12spLightBlackText"
+                android:padding="8dp"
+                android:layout_marginTop="5dp"
+                android:hint="@string/phone_number"
+                android:maxLength="16"
+                android:maxLines="1"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/OrigDetOther"
+                android:textColorHint="@color/gray_color"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                style="@style/RobotoRegular12spLightBlackText"
+                android:padding="8dp"
+                android:layout_marginTop="5dp"
+                android:hint="@string/others"
+                android:maxLength="100"
+                android:maxLines="1"
+                android:textSize="12sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/ic_destination_details" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    style="@style/RobotoMedium14spLightBlackText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="7dp"
+                    android:text="@string/destination_details"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/DesDet1Address"
+                android:textColorHint="@color/gray_color"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                style="@style/RobotoRegular12spLightBlackText"
+                android:padding="8dp"
+                android:layout_marginTop="5dp"
+                android:hint="@string/address"
+                android:maxLength="70"
+                android:maxLines="1"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/DesDet1Country"
+                android:textColorHint="@color/gray_color"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                style="@style/RobotoRegular12spLightBlackText"
+                android:padding="8dp"
+                android:layout_marginTop="5dp"
+                android:hint="@string/state_country"
+                android:maxLength="70"
+                android:maxLines="1"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/DesDet1Phone"
+                android:textColorHint="@color/gray_color"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                style="@style/RobotoRegular12spLightBlackText"
+                android:padding="8dp"
+                android:layout_marginTop="5dp"
+                android:hint="@string/phone_number"
+                android:maxLength="16"
+                android:maxLines="1"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/DesDet1Other"
+                android:textColorHint="@color/gray_color"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                style="@style/RobotoRegular12spLightBlackText"
+                android:padding="8dp"
+                android:layout_marginTop="5dp"
+                android:hint="@string/others"
+                android:maxLength="100"
+                android:maxLines="1"
+                android:textSize="12sp" />
+
+            <LinearLayout
+                android:id="@+id/llAddDest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/ic_destination_details" />
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        style="@style/RobotoMedium14spLightBlackText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="7dp"
+                        android:text="@string/destination_details" />
+
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/DesDet2Address"
+                    android:textColorHint="@color/gray_color"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginTop="5dp"
+                    style="@style/RobotoRegular12spLightBlackText"
+                    android:padding="8dp"
+                    android:hint="@string/address"
+                    android:maxLength="70"
+                    android:maxLines="1"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/DesDet2Country"
+                    android:textColorHint="@color/gray_color"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    style="@style/RobotoRegular12spLightBlackText"
+                    android:padding="8dp"
+                    android:layout_marginTop="5dp"
+                    android:hint="@string/state_country"
+                    android:maxLength="70"
+                    android:maxLines="1"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/DesDet2Phone"
+                    android:textColorHint="@color/gray_color"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    style="@style/RobotoRegular12spLightBlackText"
+                    android:padding="8dp"
+                    android:layout_marginTop="5dp"
+                    android:hint="@string/phone_number"
+                    android:maxLength="16"
+                    android:maxLines="1"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/DesDet2Other"
+                    android:textColorHint="@color/gray_color"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    style="@style/RobotoRegular12spLightBlackText"
+                    android:padding="8dp"
+                    android:layout_marginTop="5dp"
+                    android:hint="@string/others"
+                    android:maxLength="100"
+                    android:maxLines="1"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/AddDest"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:src="@drawable/ic_add_destination" />
+
+                <TextView
+                    style="@style/RobotoRegular12spGrayText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="7dp"
+                    android:text="@string/destination_details" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView4"
+                style="@style/RobotoMedium14spLightBlackText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/package_details" />
+
+            <EditText
+                android:id="@+id/PackDetItmes"
+                android:textColorHint="@color/gray_color"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                style="@style/RobotoRegular12spLightBlackText"
+                android:padding="8dp"
+                android:layout_marginTop="5dp"
+                android:hint="@string/package_items"
+                android:maxLength="50"
+                android:maxLines="1"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/PackDetWeight"
+                android:textColorHint="@color/gray_color"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                style="@style/RobotoRegular12spLightBlackText"
+                android:padding="8dp"
+                android:layout_marginTop="5dp"
+                android:hint="@string/weight_of_items_kg"
+                android:maxLength="2"
+                android:maxLines="1"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/PackDetWorth"
+                android:textColorHint="@color/gray_color"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                style="@style/RobotoRegular12spLightBlackText"
+                android:padding="8dp"
+                android:layout_marginTop="5dp"
+                android:hint="@string/worth_of_items"
+                android:maxLength="20"
+                android:maxLines="1"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                style="@style/RobotoMedium14spLightBlackText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/select_delivery_type" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp">
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/cardView"
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="8dp"
+                    app:cardCornerRadius="5dp"
+                    android:onClick="instantDelivery"
+                    android:backgroundTint="@color/blue_primary"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/scheduledDeliveryCardView"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/ic_instant_delivery" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="5dp"
+                            android:text="@string/instant_delivery"
+                            android:textAllCaps="false"
+                            android:textColor="@color/white"
+                            android:textSize="14sp" />
+
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/scheduledDeliveryCardView"
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    app:cardCornerRadius="5dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/cardView"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:strokeColor="@color/light_gray_color"
+                    app:strokeWidth="1dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/ic_scheduled_delivery" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="5dp"
+                            android:text="@string/scheduled_delivery"
+                            android:textAllCaps="false"
+                            android:textColor="@color/gray_color"
+                            android:textSize="14sp" />
+
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

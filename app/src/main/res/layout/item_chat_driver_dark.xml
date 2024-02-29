@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/item_chat_background_dark"
+    android:gravity="center"
+    android:layout_marginStart="5dp"
+    android:layout_marginEnd="5dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp">
+
+    <LinearLayout
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="7dp"
+        android:layout_marginStart="8dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="100dp">
+
+            <ImageView
+                android:id="@+id/profileImageView"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/profile_avatar" />
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="12dp">
+
+        <TextView
+            android:id="@+id/nameTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/RobotoRegular16spLightBlackText"
+            android:paddingTop="10dp"
+            android:text="@string/john_joshua"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/messageTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/RobotoRegular12spLightBlackText"
+            android:paddingBottom="10dp"
+            android:text="@string/r_456_223u"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/driverStar1"
+            android:layout_width="13dp"
+            android:layout_height="13dp"
+            android:layout_marginEnd="3dp"
+            android:src="@drawable/ic_star" />
+
+        <ImageView
+            android:id="@+id/driverStar2"
+            android:layout_width="13dp"
+            android:layout_height="13dp"
+            android:layout_marginEnd="3dp"
+            android:src="@drawable/ic_star" />
+
+        <ImageView
+            android:id="@+id/driverStar3"
+            android:layout_width="13dp"
+            android:layout_height="13dp"
+            android:layout_marginEnd="3dp"
+            android:src="@drawable/ic_star" />
+
+        <ImageView
+            android:id="@+id/driverStar4"
+            android:layout_width="13dp"
+            android:layout_height="13dp"
+            android:layout_marginEnd="3dp"
+            android:src="@drawable/ic_star" />
+
+        <ImageView
+            android:id="@+id/driverStar5"
+            android:layout_width="13dp"
+            android:layout_height="13dp"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/ic_star" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme_OechAppFinal_Night" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/blue_primary</item>
+        <item name="colorPrimaryVariant">@color/blue_primary_shade5</item>
+        <item name="colorOnPrimary">@color/blue_primary_shade1</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/orange_secondary</item>
+        <item name="colorSecondaryVariant">@color/orange_secondary_shade5</item>
+        <item name="colorOnSecondary">@color/blue_primary_shade1</item>
+        <!-- Customize your theme here. -->
+        <item name="android:textColor">@color/white</item>
+        <item name="android:windowBackground">@color/blue_primary_shade1</item>
+        <item name="colorPrimaryDark">@color/blue_primary_shade1</item>
+        <item name="android:background">@color/blue_primary_shade1</item>
+        <item name="android:backgroundTint">@color/blue_primary_shade1</item>
+        <item name="editTextStyle">@style/OtpEditTextDark</item>
+    </style>
+</resources>
